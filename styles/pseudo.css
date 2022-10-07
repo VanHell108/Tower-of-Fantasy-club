@@ -1,0 +1,82 @@
+/* pseudo classes */
+
+nav li a:hover{
+    background-color: pink;
+    padding: 20.5px 30%;
+}
+
+.images li:hover{
+    position: relative;
+    top: -5px;
+    box-shadow: 0px 30px 50px -25px rgba(0, 0, 0, 1);
+}
+
+form input:focus{
+    border: 5px dashed rgb(100, 100, 100);
+}
+
+form input:valid{
+    border: 5px solid rgb(0, 200, 0);
+}
+
+nav li a.join:hover{
+    background-color: crimson;
+    padding: 20.5px 30%;
+    color: whitesmoke;
+}
+
+article p::first-line{
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+
+p::selection{
+    background-color: crimson;
+    color: whitesmoke;
+}
+
+h1::selection{
+    background-color: crimson;
+    color: whitesmoke;
+}
+
+h2::selection{
+    background-color: crimson;
+    color: whitesmoke;
+}
+
+span::selection{
+    background-color: crimson;
+    color: whitesmoke;
+}
+
+li a::selection{
+    background-color: crimson;
+    color: whitesmoke;
+}
+
+article p::after{
+    content: '..';
+    color: rgb(225, 225, 225);
+}
+
+.update p::first-line{
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+
+.address p::after{
+    content: none;
+}
+
+aside#upBtn button:hover{
+    background-color: darkgray;
+}
+
+aside.night-mode button:hover{
+    background-color: darkgray;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: darkgray; 
+}

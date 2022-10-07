@@ -1,0 +1,196 @@
+/* responsive styles */
+
+@media screen and (max-width: 1000px){
+    
+    .banner .welcome h2{
+        font-size: 22px;
+    }
+
+    nav li{
+        font-size: 20px;
+    }
+
+    .images li{
+        width: 75%;
+        margin: 10px auto;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 900px){
+    
+    .banner .welcome h2{
+        font-size: 20px;
+    }
+
+    nav li{
+        font-size: 18px;
+    }
+
+    .images li{
+        width: 80%;
+        margin: 10px auto;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 800px){
+    
+    .banner .welcome{
+        top: 50%;
+        padding: 3px 8px;
+    }
+
+    .banner .welcome h2{
+        font-size: 18px;
+    }
+
+    .images li{
+        width: 85%;
+        margin: 10px auto;
+        display: block;
+    }
+    
+    aside.night-mode button{
+        padding: 0px 20px;
+    }
+    
+    aside#upBtn button{
+        padding: 0px 20px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    
+    .banner .welcome{
+        top: 45%;
+        padding: 3px 8px;
+    }
+
+    .banner .welcome h2{
+        font-size: 16px;
+    }
+
+    nav li{
+        font-size: 16px;
+    }
+
+    .images li{
+        width: 90%;
+        margin: 10px auto;
+        display: block;
+    }
+    
+    aside.night-mode button{
+        padding: 0px 15px;
+    }
+    
+    aside#upBtn button{
+        bottom: 15px;
+        right: 15px;
+        padding: 0px 15px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    
+    .banner .welcome{
+        padding: 1px 5px;
+    }
+
+    .banner .welcome h2{
+        font-size: 14px;
+    }
+
+    nav li{
+        font-size: 14px;
+    }
+
+    nav{
+        top: 70px;
+    }
+
+    .images li{
+        width: 95%;
+        margin: 10px auto;
+        display: block;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    aside.night-mode button{
+        padding: 0px 10px;
+    }
+    
+    aside#upBtn button{
+        bottom: 10px;
+        right: 10px;
+        padding: 0px 10px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    
+    .banner .welcome{
+        top: 42%;
+        padding: 1px 5px;
+    }
+
+    .banner .welcome h2{
+        font-size: 12px;
+    }
+
+    .images li{
+        width: 100%;
+        margin: 10px auto;
+        display: block;
+    }
+
+    nav{
+        top: 65px;
+    }
+
+    h1{
+        font-size: 15px;
+    }
+
+    p{
+        font-size: smaller;
+    }
+
+    article h2{
+        font-size: 25px;
+    }
+
+    .join h2{
+        font-size: 25px;
+    }
+
+    aside.night-mode button{
+        padding: 0px 5px;
+    }
+    
+    aside#upBtn button{
+        bottom: 5px;
+        right: 5px;
+        padding: 0px 5px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    
+    .banner .welcome{
+        top: 35%;
+        padding: 1px 5px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    
+    .banner .welcome{
+        top: 30%;
+        padding: 1px 5px;
+    }
+}

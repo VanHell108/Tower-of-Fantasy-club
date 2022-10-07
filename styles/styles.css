@@ -1,0 +1,266 @@
+body, ul, li, h1, h2, a{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: crimson;
+    padding: 12px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    font-size: 12px;
+}
+
+header h1 a{
+    color: whitesmoke;
+    border: 6px solid whitesmoke;
+    padding: 6px 12px;
+    display: inline-block;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 25px;
+}
+
+.banner{
+    position: relative;
+    top: 45px;
+}
+
+.banner img{
+    max-width: 100%;
+}
+
+.banner .welcome{
+    color: whitesmoke;
+    position: absolute;
+    left: 0;
+    top: 55%;
+}
+
+.banner h2{
+    font-size: 27px;
+    background-color: rgb(0, 0, 139, 0.3);
+    margin: 0;
+    padding: 5px 10px;
+    border-radius: 5%;
+}
+
+.banner h2 span{
+    color: crimson;
+    font-size: 1.2em;
+}
+
+nav{
+    background-color: whitesmoke;
+    padding: 20px;
+    position: sticky;
+    top: 75px;
+    z-index: 1;
+}
+
+nav ul{
+    white-space: nowrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+nav li{
+    width: 33%;
+    display: inline-block;
+    font-size: 25px;
+    text-align: center;
+}
+
+nav li a{
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+}
+
+nav li a.join{
+    color: crimson;
+}
+
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 30px;
+    box-sizing: border-box; /*incorporates the padding in the total width */
+}
+
+article h2{
+    color: crimson;
+    font-size: 30px;
+}
+
+article p{
+    line-height: 1.5em;
+    color: darkblue;
+}
+
+.images{
+    text-align: center;
+    margin: 50px 0;
+    white-space: nowrap;
+}
+
+.images li{
+    display: inline-block;
+    width: 45%;
+    margin: 10px 2%;
+}
+
+.images li img{
+    max-width: 100%;
+}
+
+.images a{
+    text-decoration: none;
+}
+
+section.join{
+    background: darkgray;
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+}
+
+section.join0{
+    background: darkgray;
+    text-align: center;
+    padding: 100px 20px;
+    color: white;
+}
+
+.join h2{
+    font-size: 30px;
+}
+
+form input{
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 25px;
+    border: 5px solid whitesmoke;
+}
+
+footer{
+    background: crimson;
+    color: whitesmoke;
+    padding: 2px;
+    text-align: center;
+}
+
+.news h2{
+    text-align: center;
+    color: crimson;
+}
+
+.news p{
+    text-align: center;
+    color: darkblue;
+}
+
+.update h2{
+    text-align: center;
+    color: crimson;
+}
+
+.update p{
+    text-align: left;
+    line-height: 1.5em;
+    color: darkblue;
+}
+
+.address{
+    text-align: center;
+}
+
+/* up button */
+
+aside#upBtn button{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 3;
+    border: 0.1px solid whitesmoke;
+    outline: none;
+    background-color: crimson;
+    color: whitesmoke;
+    cursor: pointer;
+    padding: 0px 27px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+aside#upBtn p{
+    font-weight: bolder;
+    font-size: medium;
+}
+
+/* night mode */
+
+.night-mode{
+    background-color: rgb(100, 100, 100);
+}
+
+.night-mode p{
+    color: whitesmoke;
+}
+
+.night-mode h2{
+    color: white;
+}
+
+.night-mode nav{
+    background-color: darkgray;
+}
+
+.night-mode section.join0{
+    background: rgb(100, 100, 100);
+}
+
+aside.night-mode button{
+    background-color: rgb(100, 100, 100);
+    color: whitesmoke;
+    position: fixed;
+    top: 3.5px;
+    right: 5px;
+    z-index: 5;
+    border: none;
+    outline: solid 0.1px whitesmoke;
+    cursor: pointer;
+    padding: 0px 28px;
+    margin: 0;
+    border-radius: 10px;
+}
+
+aside.night-mode p{
+    font-size: medium;
+    font-weight: bold;
+}
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: crimson; 
+    border-radius: 5px;
+}
