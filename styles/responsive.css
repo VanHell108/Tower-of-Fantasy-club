@@ -15,6 +15,15 @@
         margin: 10px auto;
         display: block;
     }
+    nav li a:hover{
+        background-color: pink;
+        padding: 20.5px 28%;
+    }
+    nav li a.join:hover{
+        background-color: crimson;
+        padding: 20.5px 28%;
+        color: whitesmoke;
+    }
 }
 
 @media screen and (max-width: 900px){
@@ -57,6 +66,15 @@
     
     aside#upBtn button{
         padding: 0px 20px;
+    }
+    nav li a:hover{
+        background-color: pink;
+        padding: 20.5px 25%;
+    }
+    nav li a.join:hover{
+        background-color: crimson;
+        padding: 20.5px 25%;
+        color: whitesmoke;
     }
 }
 
@@ -177,6 +195,15 @@
         right: 5px;
         padding: 0px 5px;
     }
+    nav li a:hover{
+        background-color: pink;
+        padding: 20.5px 20%;
+    }
+    nav li a.join:hover{
+        background-color: crimson;
+        padding: 20.5px 20%;
+        color: whitesmoke;
+    }
 }
 
 @media screen and (max-width: 500px){
@@ -192,5 +219,65 @@
     .banner .welcome{
         top: 30%;
         padding: 1px 5px;
+    }
+    nav li a:hover{
+        background-color: pink;
+        padding: 20.5px 15%;
+    }
+    nav li a.join:hover{
+        background-color: crimson;
+        padding: 20.5px 15%;
+        color: whitesmoke;
+    }
+}
+
+@media screen and (max-width: 400px){
+    
+    .banner .welcome{
+        top: 25%;
+        padding: 1px 5px;
+    }
+    nav li a:hover{
+        background-color: pink;
+        padding: 20.5px 10%;
+    }
+    nav li a.join:hover{
+        background-color: crimson;
+        padding: 20.5px 10%;
+        color: whitesmoke;
+    }
+}
+
+@media screen and (max-width: 350px){
+    
+    .banner .welcome{
+        top: 20%;
+        padding: 1px 5px;
+    }
+    nav li a:hover{
+        background-color: pink;
+        padding: 20.5px 5%;
+    }
+    nav li a.join:hover{
+        background-color: crimson;
+        padding: 20.5px 5%;
+        color: whitesmoke;
+    }
+}
+
+@media screen and (max-width: 300px){
+    
+    .banner .welcome{
+        top: 15%;
+        padding: 1px 5px;
+    }
+    nav li a:hover{
+        background-color: pink;
+        padding: 20.5px 0%;
+    }
+    nav li a.join:hover{
+        background-color: crimson;
+        padding: 20.5px 0%;
+        color: whitesmoke;
     }
 }
